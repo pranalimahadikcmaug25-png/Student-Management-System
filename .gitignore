@@ -1,0 +1,52 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.rsuser
+.vscode/
+*.dbmdl
+*.jfm
+
+## Entity Framework
+Migrations/
+
+## Logs (Serilog)
+Logs/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/packages/build/
+
+## OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Secrets / sensitive config (never commit real secrets)
+appsettings.Production.json
+secrets.json
